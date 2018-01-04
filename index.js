@@ -30,7 +30,7 @@ app.use(sessionVar)
 app.get('/', function (req, res) {
 	res.send('')
 })
-app.use('/login', login);
+app.use(login);
 
 // check if user is logged
 app.use(function(req, res, next) {
