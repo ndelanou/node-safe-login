@@ -1,0 +1,25 @@
+{
+  "name": "safe_login",
+  "version": "1.0.0",
+  "description": "Safe login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'lolflantier'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "login",
+    "safe",
+    "hash",
+    "md5"
+  ],
+  "author": "ndelanou",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "md5": "^2.2.1",
+    "pg": "^7.4.0"
+  }
+}
